@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    line-height: 25px;
+    /* font-family: "Times New Roman", Times, serif; */
+}
+
+.main{
+    width: 1000px;
+    margin: auto;
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.examimg {
+	display: block;
+	margin: 0 auto; /* 0 是上下边距，auto 是水平居中 */
+}
+
+ul li
+{
+    /* background-image: url(sqpurple.gif); */
+    background-repeat: no-repeat;
+    background-position: 0px 5px; 
+    padding-left: 14px; 
+
+}
+
+ol li
+{
+    /* background-image: url(sqpurple.gif); */
+    background-repeat: no-repeat;
+    background-position: 0px 5px; 
+    padding-left: 14px; 
+
+}
+
+.bib{
+    width:80%;
+    background-color: bisque;
+
+}
+
+p {text-indent:2em;}
+
+a.highlight:hover {
+  color: #ff0000;
+}
+
+a{
+    font-size:larger    
+}
+
+b :hover{
+    color: #ff0000;    
+}
+</style>
+<body>
+    <h1 style="text-align: center; width:80%; height:60px; line-height:normal;margin: 0 auto; background-color:cadetblue; font-size:40px">D-Gait Dataset</h1>
+    <div class='main'>
+        <h2>Description</h2>
+        <p>This dataset is designed for the purpose of identifying depression based on gait analysis, which has great significance in mental health diagnosis and treatment. The dataset contains two modalities of data, namely silhouette and skeleton, which are obtained through advanced motion capture technology. The silhouette data provides the outer contour of the subject's body, while the skeleton data provides the joint positions and movements.</p>
+        <img class='examimg' src="./exam.png">
+        <p>The labels of the dataset are derived from a combination of three widely used depression scales, namely the Patient Health Questionnaire-9 (PHQ-9), the Self-rating Depression Scale (SDS), and the Generalized Anxiety Disorder-7 (GAD-7). By combining the results of these scales, a comprehensive assessment of the subject's depression level is obtained, which serves as the ground truth for the dataset.</p>
+        <p>The dataset offers researchers and developers a valuable resource to explore the relationship between gait and depression, and to develop accurate and reliable depression recognition models based on gait analysis. It also provides a platform for evaluating and comparing different gait analysis approaches, paving the way for future advancements in mental health diagnosis and treatment.</p>
+        <h2>Download</h2>
+        <h3>Dataset Usage Rules</h3>
+        <div style="margin-left: 30px;">
+            <ul>
+                <li>This dataset and its subsets can only be used for academic research.</li>
+                <li>Applicants are not allowed to use this dataset and its subsets for any commercial purposes.</li>
+                <li>Without permission, it is not allowed to forward, publish or distribute this dataset or its subsets to any organization or individual in any ways or by any means.</li>
+                <li>Any copy and sharing requests should be forwarded to the official contact email.</li>
+                <li>Please cite our paper if D-Gait dataset is useful to your research:</br>
+                <a href="http://www.baidu.com">论文链接</a></br>
+                <div class="bib">
+                    bib
+                </div>
+                </li>
+              </ul>
+        </div>
+        <h3>Dataset Access</h3>
+        <div >
+            <ol>
+                <li>All users can obtain and use this dataset only after signing the <b><u><a href="./aggrement.pdf" download="./aggrement.pdf">Agreement</a></u></b> and sending it to the official contact email address.</li>
+                <li>For students, research groups or research institutions who need to obtain this data for academic research, signatures of both the Responsible Party and the Point of Contact are required. The Responsible Party should be the tutor of the research group or the representative of the research institution, and has the authority to be responsible for the matters related to the Agreement. (The Responsible Party should be fixed personnel of the institution, students and other floating personnel cannot be the Responsible Party). The Point of Contact (POC) is an individual with detailed knowledge of the dataset application. In some cases, the Responsible Party and the POC may be the same person. At the same time, the homepage of the Responsible Party (or the homepage of the research group, laboratory, Department, etc., including the basic information of the Responsible Party) must be provided to prove the role of the Responsible Party.</li>
+                <li>Please send the signed Agreement to the official contact email (邮箱) in the form of scanned copy. Please CC the Responsible Party when sending the email.</li>
+            </ol>
+        </div>
+        <h2>Contact</h2>
+        <p>Please contact 邮箱 for questions about the database.</p>
+
+    </div>
+
+</body>
+</html>
+
